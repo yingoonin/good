@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://bodo-p.vercel.app/");
+header("Location: https://start-process-to-here.netlify.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
